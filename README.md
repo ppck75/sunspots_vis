@@ -1,4 +1,4 @@
-# 🌞 Sunspots (태양 흑점 분석)
+# 🌞 Sunspot (태양 흑점 분석)
 
 태양 흑점 데이터를 수집 및 분석한 프로젝트입니다. 
 
@@ -17,15 +17,12 @@
 ## 📁 프로젝트 구조
 
 ```
-sunspots/
+sunspots_vis/
 ├── README.md                 # 프로젝트 설명 (이 파일)
 ├── requirements.txt          # Python 의존성
-├── sumspots/                 # 메인 패키지
-│   ├── __init__.py
-│   ├── analyze.py           # 분석 모듈
-│   ├── visualize.py         # 시각화 모듈
-│   └── data/                # 데이터 디렉토리
-└── tests/                   # 테스트 코드
+├── app.py                    # 메인 애플리케이션
+├── data/                     # 데이터 디렉토리
+└── .devcontainer/            # Dev Container 설정
 ```
 
 ## 📚 사용 예제
